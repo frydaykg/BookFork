@@ -1,3 +1,5 @@
+package com.bookfork.Entities;
+
 class Coefficient
 {
 	private String type;
