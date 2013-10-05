@@ -1,14 +1,17 @@
-import Coefficient;
+package com.bookfork.Entities;
 
-class Event
+import java.util.ArrayList;
+import java.util.List;
+
+public class Event
 {
 	private String name;
-	private List<Coeffiecient> coefs;
+	private List<Coefficient> coefs;
 	
 	public Event(String name)
 	{
 		this.name = name;
-		coefs = new ArrayList<Coeffiecient>();
+		coefs = new ArrayList<Coefficient>();
 	}
 	
 	public void setName(String name)
