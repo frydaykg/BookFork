@@ -23,4 +23,10 @@ public class Event
 	{
 		return name;
 	}
+	
+	public void addCoefficient(Coefficient coef)
+	{
+		coefs.add(coef);
+	}
+	
 }

@@ -1,6 +1,6 @@
 package com.bookfork.Entities;
 
-class Coefficient
+public class Coefficient
 {
 	private String type;
 	private double value;
